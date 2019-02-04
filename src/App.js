@@ -1,9 +1,12 @@
 import React, { Component } from 'react';
 import './App.css';
+import JobSeeker from './components/jobSeekers/JobSeeker';
 
 class App extends Component {
   render() {
-    return <div className="App">Devs4Hire</div>;
+    return (
+      <JobSeeker name="mike" email="mike@gmail.com" phone="818-818-9920" />
+    );
   }
 }
 
