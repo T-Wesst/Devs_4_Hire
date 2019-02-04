@@ -1,11 +1,18 @@
 import React, { Component } from 'react';
 import './App.css';
-import JobSeeker from './components/jobSeekers/JobSeeker';
-
+import JobSeeker from './components/jobSeeker/JobSeeker';
+import Header from './components/header/Header.js';
 class App extends Component {
   render() {
     return (
-      <JobSeeker name="mike" email="mike@gmail.com" phone="818-818-9920" />
+      <div>
+        <Header />
+        <JobSeeker
+          name="Karren Smith"
+          email="karren@gmail.com"
+          phone="818-255-2121"
+        />
+      </div>
     );
   }
 }
