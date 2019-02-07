@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "name": "Tyroo Doe",
+    "email": "jdoe@gmail.com",
+    "phone": "818-818-8118",
+    "linkedIn": "https://www.linkedin.com/in/tyroowest/"
+  },
+  {
+    "id": 1,
+    "name": "Karen Smith",
+    "email": "karen@gmail.com",
+    "phone": "818-224-3234",
+    "linkedIn": ""
+  },
+  {
+    "id": 2,
+    "name": "Mike Myers",
+    "email": "mike@gmail.com",
+    "phone": "818-211-1122",
+    "linkedIn": ""
+  }
+]
