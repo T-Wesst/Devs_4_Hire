@@ -11,6 +11,7 @@ export default class JobSeekers extends Component {
               {applicants.map(applicant => (
                 <JobSeeker
                   key={applicant.id}
+                  image={applicant.image}
                   name={applicant.name}
                   email={applicant.email}
                   phone={applicant.phone}

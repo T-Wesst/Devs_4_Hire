@@ -4,13 +4,16 @@ import { Consumer } from '../../context';
 export default class JobSeeker extends Component {
   render() {
     // destructuring props
-    const { name, email, phone, linkedIn } = this.props;
+    const { name, email, phone, linkedIn, image } = this.props;
     return (
       <Consumer>
         {() => {
           return (
             <div className="card card-body">
               <ul className="list-group">
+                <li>
+                  <img src={image} alt="" />
+                </li>
                 <li className="list-group-item">Email: {email}</li>
                 <li className="list-group-item">Phone: {phone}</li>
                 <li className="list-group-item">Name: {name}</li>
