@@ -9,8 +9,8 @@ class App extends Component {
     return (
       <Provider>
         <div className="App">
+          <Header branding="Devs_4_Hire" />
           <div className="container">
-            <Header branding="Devs_4_Hire" />
             <JobSeekers />
           </div>
         </div>
